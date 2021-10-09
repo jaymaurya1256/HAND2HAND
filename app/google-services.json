@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1002104462989",
+    "project_id": "hand2hand-3ca00",
+    "storage_bucket": "hand2hand-3ca00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002104462989:android:aafe0f834ca4f052ea0cc4",
+        "android_client_info": {
+          "package_name": "com.example.hand2hand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002104462989-387lib5npts2ra5j034h4dr4iv6emj5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jay.hand2hand",
+            "certificate_hash": "ed1f8ce18af5e120f4ea74934462c7762b07d1dd"
+          }
+        },
+        {
+          "client_id": "1002104462989-jpvhk2r12c6pea7e8eq6g44uv5th5cdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw0ArL030fyNCbf2Zb6hmQy1Pe-sKkTBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002104462989-jpvhk2r12c6pea7e8eq6g44uv5th5cdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

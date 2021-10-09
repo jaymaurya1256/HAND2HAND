@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HAND2HAND</string>
+
+    <string name="LOGIN_text">LOGIN</string>
+    <string name="loginEmail">abc@gmail.com</string>
+    <string name="loginPassword">strongpassword@Gkp3511@3#!</string>
+    <string name="loginNot_registered_yet">Not registered yet?</string>
+    <string name="loginRegister">Register</string>
+
+    <string name="registerRegister">Register yourself here</string>
+    <string name="firstName">First Name(Required)</string>
+    <string name="lastName">Last Name(Required)</string>
+    <string name="EmailRegistration">Your Email(Required)</string>
+    <string name="phone">Your Phone Number(Required)</string>
+    <string name="Address">Address(Optional)</string>
+    <string name="Nickname">Your Nickname(Optional)</string>
+    <string name="registerLogin">Go back to Login</string>
+</resources>
