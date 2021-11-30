@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.RegistrationActivity">
+    tools:context=".activities.RegistrationActivity">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -34,57 +34,127 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/registerHeading"
         android:orientation="vertical">
-        <com.example.hand2hand.utility.H2HEditText
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/firstName">
-        </com.example.hand2hand.utility.H2HEditText>
-        <com.example.hand2hand.utility.H2HEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/firstName"
+                tools:ignore="TouchTargetSizeCheck">
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/lastName">
-        </com.example.hand2hand.utility.H2HEditText>
-        <com.example.hand2hand.utility.H2HEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/lastName"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/phone">
-        </com.example.hand2hand.utility.H2HEditText>
-        <com.example.hand2hand.utility.H2HEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/phone"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/EmailRegistration">
-        </com.example.hand2hand.utility.H2HEditText>
-        <com.example.hand2hand.utility.H2HEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/EmailRegistration"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/Nickname">
-        </com.example.hand2hand.utility.H2HEditText>
-        <com.example.hand2hand.utility.H2HEditText
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/Nickname"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
-            android:hint="@string/Address">
-        </com.example.hand2hand.utility.H2HEditText>
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:hint="@string/Address"
+                tools:ignore="TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button2"
+        app:layout_constraintTop_toBottomOf="@id/inputField"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <com.example.hand2hand.utility.MSPTextViewRegular
+            android:layout_height="@dimen/login_activity_not_registered_yet_Register"
+            android:layout_width="wrap_content"
+            android:text="@string/terms_and_conditions">
+
+        </com.example.hand2hand.utility.MSPTextViewRegular>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I Agree"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="562dp" />
+
+    </LinearLayout>
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -94,7 +164,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inputField" />
+        app:layout_constraintTop_toBottomOf="@id/terms" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -112,5 +182,6 @@
 
         </com.example.hand2hand.utility.MSPTextViewRegular>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
